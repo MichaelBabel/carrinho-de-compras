@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #efefef;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-shop {
+    display: flex;
+    align-items: center;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #1fad2b;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-left: -15px;
+    margin-top: -15px;
+}
+
+.container {
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card {
+    max-width: 550px;
+    padding: 25px;
+    border-radius: 5px;
+    background-color: #fff;
+    margin: 50px;
+}
+
+.buttons {
+    margin-top: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #000;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+button:disabled,
+button[disabled] {
+    background-color: #e8e8e8;
+    color: #000000;
+}
+
+.message p#message-cart {
+    font-size: 20px;
+    color: #4b4b4b;
+    margin: 15px 15px 0 15px;
+}
